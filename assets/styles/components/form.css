@@ -3,3 +3,34 @@
 
 /* Form
 ############################################################################ */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding: var(--size-l);
+  input {
+    border-bottom: 1px solid var(--color-blaugrau);
+
+  }
+  textarea {
+    border: 1px solid var(--color-blaugrau);
+    resize: vertical;
+  }
+  .submit-button {
+    padding: var(--size-s) var(--size-m);
+    border-radius: var(--radius-xs);
+    background-color: var(--color-pink);
+    color: var(--color-lightest);
+    font-size: var(--size-m);
+    transition: all var(--tr-fast);
+
+    &:hover {
+      background-color: var(--color-blaugrau);
+      box-shadow: var(--box-shadow);
+      cursor: pointer;
+    }
+  }
+}
