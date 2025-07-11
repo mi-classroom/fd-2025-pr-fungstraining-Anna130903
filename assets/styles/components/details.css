@@ -28,6 +28,7 @@ details{
       transition: transform .2s ease-in-out;
       white-space: nowrap;
       word-wrap: normal;
+      color: var(--color-pink);
     }
 
     &:hover {
@@ -54,13 +55,17 @@ details{
     grid-template-rows: 1fr;
     opacity: 1 !important;
     
+    
     .details-content{
       grid-template-rows: 1fr;
     }
 
     summary::before{
       transform: rotate(90deg) !important;
+      color: var(--color-pink);
     }
   }
 
 }
+
+
