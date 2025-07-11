@@ -1,2 +1,28 @@
 /* Work Overview
 ############################################################################ */
+
+.work-overview {
+  list-style: none;
+  padding: 0;
+  .simple-button{
+    background-color: var(--color-pink);
+    &:hover{
+    background-color: var(--color-lichtgrau);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    
+  }
+  }
+}
+
+.work-item {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.work-item h3 {
+  margin: 0 0 0.5rem;
+}
